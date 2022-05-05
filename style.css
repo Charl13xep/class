@@ -1,0 +1,19 @@
+.fruits{
+    border: 2px darkblue;
+    color: #3b363f;
+    text-align: center;
+    padding: 15px;
+    background-color: brown;
+
+}
+.cars{
+    text-align: center;
+    background-color: darkblue;
+}
+
+#Tanzania{
+    background-color:gold;
+}
+#Kenya{
+    background-color: white;
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        form{
+            background-color: white;
+            font-family: "Abyssinica SIL";
+            background-image: url("images/meme5.jpeg");
+
+
+
+        }
+        h2{
+            color: black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+<h2>Registration Form </h2>
+<form action="">
+    <label for="fname">FirstName</label><br>
+    <input type="text"id="fname" placeholder="First name"><br>
+    <label for="Lname">LastName</label><br>
+    <input type="text"id="Lname" placeholder="Last name"><br>
+    <select name="Course" id="course">
+        <option value="Fullstack Software">Fullstack</option>
+        <option value="Python">Python</option>
+        <option value="Android">Android</option>
+        <option value="JavaScript">Javascript</option>
+        <option value="Ruby">Ruby</option>
+        <option value="C#">C#</option>
+    </select><br>
+    gender
+    <label for="male">Male</label><br>
+    <input type="radio" id="male" name="Gender"><br>
+    <label for="female">Female</label><br>
+    <input type="radio" id="female" name="Gender"><br>
+    <label for="dor">DateOfRegistration</label><br>
+    <input type="date"id="dor"><br>
+    <label for="Email">EmailAddress</label><br>
+    <input type="email"id="Email" placeholder="email"><br>
+    <label for="Pass">Password</label><br>
+    <input type="password"id="Pass"><br>
+
+    <label for="Upload image">Upload image</label><br>
+    <input type="File" id="Upload image" placeholder="choose file"><br>
+    <input type="submit" value="Register" placeholder="Password"><br>
+    <button type="button"onclick="alert('Forms innit')">Press here</button>
+</form>
+
+</body>
+</html>
